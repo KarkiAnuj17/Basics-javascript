@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start Learning</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <h2>User profile with Feedback</h2>
+  <form>
+    <div id="input-box">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div id="input-box">
+      <label for="phoneNumber">Phone Number</label>
+      <input type="number" id="phoneNumber" name="phoneNumber" required>
+    </div>
+    <div id="input-box">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div id="input-box">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div id="selection">
+      <label>Gender</label>
+      <input type="radio" id="male" name="Gender">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="Gender">
+      <label for="female">Female</label>
+    </div>
+    <div id="selection">
+      <label>Country</label>
+      <select name="country">   
+        <option value="Nepal">Nepal</option>    
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="China">China</option>
+        <option value="France">France</option>
+      </select>
+    </div>
+    <div id="selection">
+      <label>Select your favourite sports</label><br/>
+      <input type="checkbox" id="Football" name="Sports">
+      <label for="Football">Football</label><br/>
+      <input type="checkbox" id="Cricket" name="Sports">
+      <label for="Cricket">Cricket</label><br/>
+      <input type="checkbox" id="Basketball" name="Sports">
+      <label for="Basketball">Basketball</label><br/>
+      <input type="checkbox" id="Volleyball" name="Sports">
+      <label for="Volleyball">Volleyball</label><br/>
+      <input type="checkbox" id="Table_Tennis" name="Sports">
+      <label for="Table_Tennis">Table Tennis</label>
+    </div>
+    <br/>
+    <div>
+      <textarea name=feedback" placeholder="Provide your feedback here"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

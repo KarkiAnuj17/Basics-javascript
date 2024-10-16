@@ -40,3 +40,18 @@ document.querySelector("div").children
 console.dir(document.body.firstChild);
 let div=document.querySelector("div");
 console.dir(div);
+
+//attributes
+//->getAttribute(attr)-->to get attribute value
+//->set attribute(attr,value)-->set the value of attribute
+
+//adding element
+//-->first step:create element by let el= document.createElemetn("div")
+//-->then add the element by:
+//1)node.append(el)-->adds at the end of node(inside)
+//2)node.prepend(el)-->adds at the start of node(inside)
+//3)node.before(el)-->adds before the node(outside)
+//4) node.after(el)-->adds after the node(outside)
+
+//delete element
+//node.remove()-->removes the node
